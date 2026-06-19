@@ -1,6 +1,8 @@
+# lts
+
 # Namecheap SSH MySQL SELECT to CSV
 
-This folder contains a repeatable process for SSHing into a Namecheap hosting account, running a MySQL/MariaDB `SELECT`, and saving the result as a local CSV file.
+This repository contains a repeatable process for SSHing into a Namecheap hosting account, running a MySQL/MariaDB `SELECT`, and saving the result as a local CSV file.
 
 ## Files
 
@@ -14,7 +16,7 @@ This folder contains a repeatable process for SSHing into a Namecheap hosting ac
 Open Git Bash from this folder:
 
 ```bash
-cd /c/Users/Sean/namecheap-db-export
+cd /c/Users/Sean/lts
 chmod +x export_namecheap_db.sh
 cp .env.example .env
 ```
